@@ -1,0 +1,21 @@
+from collections import deque
+#MODULOS CADASTRADOS
+modulos = [
+    {"nome": "Habitacao", "pouso": 2, "n_comb": 9500, "massa": 18000, "criticidade": 10, "hora": 10},
+    {"nome": "Energia", "pouso": 1, "n_comb": 7000, "massa": 12000, "criticidade": 10, "hora": 8},
+    {"nome": "Medico", "pouso": 3, "n_comb": 3000, "massa": 5000, "criticidade": 9, "hora": 12},
+    {"nome": "Logistica", "pouso": 4, "n_comb": 8000, "massa": 15000, "criticidade": 8, "hora": 14},
+    {"nome": "Pesquisa", "pouso": 5, "n_comb": 4000, "massa": 7000, "criticidade": 7, "hora": 16}
+]
+
+#Busca menor combustivel
+menor_comb = min(modulos, key=lambda x: x["n_comb"])
+print("Menos combustível:", menor_comb["nome"])
+
+#Busca maior criticidade
+maior_crit = max(modulos, key=lambda x: x["criticidade"])
+mais_criticos = [m for m in modulos if m["criticidade"] == maior_crit]
+
+for m in mais_criticos:
+    print("Maior criticidade:", maior_crit["nome"])
+

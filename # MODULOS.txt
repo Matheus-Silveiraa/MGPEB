@@ -1,0 +1,50 @@
+# MODULOS 
+módulos de habitação, geração de energia, suporte médico, logística e pesquisa científica.
+
+# ATRIBUTOS BASICOS
+prioridade de pouso, nível de combustível, massa, criticidade da carga transportada e horário estimado de chegada.
+
+# Modulo de habitção
+pouso = 
+n_comb = 
+massa =
+criticidade = 
+hora = 
+
+# Modulo de habitacao
+pouso = 2
+n_comb = 9500
+massa = 18000
+criticidade = 10
+hora = 10
+
+# Modulo de geracao de energia
+pouso = 1
+n_comb = 7000
+massa = 12000
+criticidade = 10
+hora = 8
+
+# Modulo de suporte medico
+pouso = 3
+n_comb = 3000
+massa = 5000
+criticidade = 9
+hora = 12
+
+# Modulo de logistica
+pouso = 4
+n_comb = 8000
+massa = 15000
+criticidade = 8
+hora = 14
+
+# Modulo de pesquisa cientifica
+pouso = 5
+n_comb = 4000
+massa = 7000
+criticidade = 7
+hora = 16
+
+# condições
+nível de combustível, as condições atmosféricas, a disponibilidade da área de pouso e a integridade dos sistemas do módulo.
