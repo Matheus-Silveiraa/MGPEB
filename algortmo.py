@@ -46,10 +46,10 @@ while fila_pouso:
     )
 
     if autorizado:
-        print(f"{m['nome']} autorizado para pouso")
+        print(f"Modulo de {m['nome']} autorizado para pouso")
         pousados.append(m)
     else:
-        print(f"{m['nome']} pouso BLOQUEADO")
+        print(f"Modulo de {m['nome']} pouso BLOQUEADO")
         alerta.append(m)
 
 # Pilha (revisão)
